@@ -8,8 +8,7 @@ Ce fichier est l'application principale Streamlit avec :
 - Intégration Gemini API pour l'analyse IA
 - Logging des actions utilisateur
 
-Structure simple :
-Chaque section est clairement séparée et commentée.
+
 """
 
 import os
@@ -19,8 +18,11 @@ import json
 import logging
 from datetime import datetime
 
-from dotenv import load_dotenv
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 import pandas as pd
 import numpy as np
