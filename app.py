@@ -405,27 +405,6 @@ with tab1:
         """)
 
     with col2:
-        st.subheader("Architecture")
-        st.markdown("""
-        ```
-        Données CSV
-           ↓
-        Preprocessing
-        (encodage + scaling)
-           ↓
-        Modèles ML
-        (RF, LR, GB, XGBoost)
-           ↓
-        MLflow Tracking
-           ↓
-        Modèle Champion
-           ↓
-        Streamlit App
-           ↓
-        Déploiement Cloud
-        ```
-        """)
-
         st.subheader("Dataset")
         try:
             df_sample = pd.read_csv("fraud_detection_classification_realistic.csv")
