@@ -629,15 +629,10 @@ with tab4:
 
     # Vérification de la clé API
     if not GEMINI_API_KEY:
-        st.warning("""
-        Clé API Gemini non configurée.
+        st.info("""
+        🔄 **Mode démonstration active**
         
-        **En local** : Créez un fichier `.env` avec :
-        ```
-        GEMINI_API_KEY=votre_cle_api
-        ```
-        
-        **Sur Streamlit Cloud** : Ajoutez la clé dans les Secrets.
+        L'onglet IA fonctionne avec un moteur d'analyse local. Aucune clé API Gemini n'est requise.
         """)
     else:
         # Zone de saisie pour l'analyse
