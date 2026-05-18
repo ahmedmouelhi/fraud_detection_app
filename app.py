@@ -519,7 +519,7 @@ with tab2:
         with result_col3:
             st.metric(
                 label="Seuil de décision",
-                value="50%"
+                value="100%"
             )
 
         # Détails
