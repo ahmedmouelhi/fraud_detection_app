@@ -1,0 +1,26 @@
+{
+  "numerical_cols": [
+    "transaction_amount",
+    "transaction_frequency",
+    "account_age_months",
+    "device_risk_score",
+    "login_attempts",
+    "merchant_score",
+    "card_usage_score"
+  ],
+  "categorical_cols": [
+    "payment_method",
+    "country"
+  ],
+  "all_features": [
+    "transaction_amount",
+    "transaction_frequency",
+    "account_age_months",
+    "device_risk_score",
+    "login_attempts",
+    "merchant_score",
+    "card_usage_score",
+    "payment_method",
+    "country"
+  ]
+}

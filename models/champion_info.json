@@ -1,0 +1,13 @@
+{
+  "model_name": "RandomForest",
+  "f1_score": 1.0,
+  "roc_auc": 1.0,
+  "run_id": "fab65ddcb7e74211b1f871eedaa86e98",
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0
+  }
+}

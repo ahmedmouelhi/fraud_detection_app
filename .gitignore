@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+
+# Fichiers d'environnement
+.env
+
+# MLflow
+mlruns/
+
+# Logs
+logs/
+
+# Modèles sauvegardés (optionnel - à commenter si vous voulez versionner les modèles)
+# models/
+
+# Datasets (optionnel)
+# *.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
