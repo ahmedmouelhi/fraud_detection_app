@@ -113,19 +113,6 @@ Le modèle avec le meilleur **F1-Score** est automatiquement sélectionné comme
 
 ## 🔧 Tracking MLOps avec MLflow
 
-### Lancer l'UI MLflow :
-```bash
-mlflow ui --backend-store-uri ./mlruns
-```
-Accès : http://localhost:5000
-
-### Configuration DagsHub (production) :
-```python
-import mlflow
-mlflow.set_tracking_uri("https://dagshub.com/USERNAME/REPO.mlflow")
-```
-
----
 
 ## 🤖 Configuration Gemini API
 
